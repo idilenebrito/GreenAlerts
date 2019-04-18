@@ -2,12 +2,30 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   height:100vh;
+  border: solid 1px;
+  border-color: black;
   overflow:hidden;
 }
 
+.areaLogo{
+    border: solid 2px;
+    border-color: indigo;
+    width: 83%;
+}
+
+.navegador{
+    border: solid 2px;
+    border-color: chartreuse;
+    width:17%;
+}
 
 .topo{
+    border: solid 2px;
+    border-color: crimson;
+}
 
+.area{
+    border: solid 2px;
+    border-color: gold;
 }
