@@ -6,10 +6,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ambietec</title>
+  <title>Menu Inicial</title>
 
 
-  
+  <!- Imports -!>
   <link rel="stylesheet" href="./css/css-index.css">   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -21,7 +21,7 @@
 
       <div class="navegadorTxt">
         <div>
-          Navegador
+         Paineis
         </div>
       </div>
 
@@ -32,8 +32,12 @@
       </div>
       
      <div class="btnTopo">
+
      <div class="btn1">
+        <a href="empresas.php"> <!- Link para pagina "empresas.php" -!>
         <button type="button" class="btn btn-light">Empresas</button>
+        </a>
+        
       </div>
 
       <div class="btn2">
@@ -50,19 +54,27 @@
       <div class="logo">
 
       <div class="logoTxt">
-        a
+        Green Alert
       </div>
 
       <div class="logoImg">
-        <img src="https://i.imgur.com/XGpUJgO.png" alt="" width=60px>
+        <img src="https://i.imgur.com/XGpUJgO.png" alt="imagemLogo" width=60px>
       </div>
 
       </div>
 
     </div>
 
-    <div class="area">
+    <div class="divisoria">
+      <hr>
+    </div> 
+
+    <div class="areaBranca"> 
     
+      <div class="imgArea"> <!- Essa imagem tem que ser editada -!>
+        <img src="https://i.imgur.com/XGpUJgO.png" alt="imagemArea" width=500>
+      </div> 
+
     </div>
 
     </div>
