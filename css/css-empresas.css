@@ -104,4 +104,12 @@ hr{
     border-color: gold;*/
 }
 
+.areaBlank{
+    margin: 10px;
+    background-color: rgb(255, 0, 0);
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #54f25c;
+}
+
 

@@ -75,7 +75,9 @@
 
             <div class="areaBranca"> 
 
-            
+            <div class="areaBlank">
+                    a
+                </div>
 
             </div>
 
