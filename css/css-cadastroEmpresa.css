@@ -1,0 +1,61 @@
+* { box-sizing: border-box; }
+
+body{margin: 0;}
+
+.corpo {
+  min-height: 100vh;
+  flex-direction: column;
+  border: solid black;
+}
+
+.cadEmpresa {
+  margin: 32px 100px;
+  color: green;
+}
+
+.informacoes {
+  min-height: 100vh;
+}
+
+.bccu {
+  display: flex;
+}
+
+.tt {
+  display: flex;
+}
+
+.tt p {
+  margin: 15px 80px 15px 0;
+}
+
+.bccu p {
+  margin: 15px 53px 15px 0;
+}
+
+.bccuinput input {
+  margin: 0 4px 0 0; 
+}
+
+.informacoesesquerda input {
+  margin: 0 150px 0 0;
+}
+
+.ttinput input {
+  margin: 0 10px 0 0;
+}
+
+
+.confemail {
+  margin: 87px 0 0 0;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.width100 {
+  width: 100%;
+}

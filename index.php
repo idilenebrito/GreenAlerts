@@ -41,7 +41,7 @@
       </div>
 
       <div class="btn2">
-        <button type="button" class="btn btn-light">Documentos</button>
+        <button type="button" class="btn btn-light">Notificações</button>
       </div>
      </div>
 

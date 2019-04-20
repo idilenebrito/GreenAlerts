@@ -1,5 +1,5 @@
-
-
+<!- implantando conexao -!>
+<?php include("classes/conexao.php") ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +44,7 @@
 
              <div class="btn2">
                 <a href="documentos.php"> <!- Link para pagina "documentos.php" -!>
-                    <button type="button" class="btn btn-light">Documentos</button>
+                    <button type="button" class="btn btn-light">Notificações</button>
                 </a>
             </div>
         </div>
@@ -75,8 +75,48 @@
 
             <div class="areaBranca"> 
 
+                <div class="descrAba">
+
+                    <div class="descrImg">
+                        <img src="https://cdn0.iconfinder.com/data/icons/lined-global-business/48/a-14-512.png" 
+                        alt=""
+                        width=47px>
+                    </div>
+
+                    <div class="descrTxt">
+                        Painel de empresas
+                    </div>
+
+                </div>
+
                 <div class="areaBlank">
-                    a
+                
+                    <div class="enum">
+
+                        <div class="idTxt">
+                            ID
+                        </div>
+
+                        <div class="nomeTxt">
+                            Nome Fantasia
+                        </div>
+
+                        <div class="cnpjTxt">
+                            Cnpj
+                        </div>
+
+                        <div class="cidadeTxt">
+                            Cidade
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="btnCadastro">
+                    <a href="cadastroEmpresa.php"> <!- Link para pagina "documentos.php" -!>
+                        <button type="button" class="btn btn-success">Adicionar Empresa</button>
+                    </a>
                 </div>
 
             </div>

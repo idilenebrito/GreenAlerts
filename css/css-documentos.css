@@ -32,7 +32,7 @@ hr{
 .navegador{
     
     width:15%;
-    background-color: #54f25c;
+    background-color: #00cc00;
     flex-direction: row-reverse;
 }
 
@@ -89,8 +89,9 @@ hr{
 
 .logoTxt{
     
+    margin: 5px 4px 0px 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     color: #444444;
 
 }
@@ -104,11 +105,80 @@ hr{
     border-color: gold;*/
 }
 
+.descrAba{
+    display: flex;
+    margin: .1em auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0px 0px 3px 0px;
+}
+
+.descrImg{
+
+}
+
+.descrTxt{
+    font-family: 'Roboto', sans-serif;
+    color: #00cc00;
+    font-size: 20px;
+    margin: 8px 0px 0px 10px ;
+}
 
 .areaBlank{
-    margin: 10px;
-    background-color: rgb(255, 0, 0);
+    margin: 10px 20px 15px 20px;
+    background-color: #E8E8E8;
     border: solid 1px;
     border-radius: 10px;
-    border-color: #54f25c;
+    border-color: #F0F0F0;
+    max-height: 80%;
+    min-height: 400px;
 }
+
+.enum{
+    width:100%;
+    background-color: #00b300/*#54f25c*/;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    display:flex;
+}
+
+.idTxt{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    width:25%;
+    margin: 12px 0px 0px 0px;
+}
+
+.nomeTxt{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    width:25%;
+    margin: 12px 0px 0px 0px;
+}
+
+.cnpjTxt{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width:25%;
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+}
+
+.cidadeTxt{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width:25%;
+    text-align: center;
+    margin: 12px 10px 0px 0px;
+}
+
+.btnCadastro{
+    margin: .1em auto;
+    width: 100%;
+    max-width: 220px;
+    float:right;
+}
+

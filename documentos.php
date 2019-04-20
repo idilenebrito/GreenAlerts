@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Painel de Documentos</title>
+    <title>Painel de Empresas</title>
 
     <!- Imports -!>
-  <link rel="stylesheet" href="./css/css-documentos.css">   
+  <link rel="stylesheet" href="./css/css-empresas.css">   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -44,7 +44,7 @@
 
              <div class="btn2">
                 <a href="documentos.php"> <!- Link para pagina "documentos.php" -!>
-                    <button type="button" class="btn btn-light">Documentos</button>
+                    <button type="button" class="btn btn-light">Notificações</button>
                 </a>
             </div>
         </div>
@@ -75,8 +75,48 @@
 
             <div class="areaBranca"> 
 
-            <div class="areaBlank">
-                    a
+                <div class="descrAba">
+
+                    <div class="descrImg">
+                        <img src="https://parqueibirapuera.org/wp/wp-content/uploads/2014/08/events-calendar-icon.png" 
+                        alt=""
+                        width=47px>
+                    </div>
+
+                    <div class="descrTxt">
+                        Painel de notificações
+                    </div>
+
+                </div>
+
+                <div class="areaBlank">
+                
+                    <div class="enum">
+
+                        <div class="idTxt">
+                            ID
+                        </div>
+
+                        <div class="nomeTxt">
+                            Empresa
+                        </div>
+
+                        <div class="cnpjTxt">
+                            Data de validade
+                        </div>
+
+                        <div class="cidadeTxt">
+                            Observações
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="btnCadastro">
+                    <a href="cadastroNotificacao.php"> <!- Link para pagina "documentos.php" -!>
+                        <button type="button" class="btn btn-success">Cadastrar Notificação</button>
+                    </a>
                 </div>
 
             </div>
