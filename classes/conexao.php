@@ -27,7 +27,7 @@ $bd = "greenalert";
 $conexao = new mysqli($host, $usuario, $senha, $bd);
 
 /* Verificação de erro na conexao */
-if($mysqli->connect_errno)
+if($conexao->connect_errno)
     echo "Falha na conexao: (".$mysqli->connect_errno.") ".$mysqli->connect_errno ;
 
 ?>
