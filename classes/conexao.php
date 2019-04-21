@@ -20,11 +20,11 @@ try{
 $host = "localhost";
 $usuario = "root";
 $senha = "";
-$bd = "ambientecpfc";
+$bd = "greenalert";
 
 
 /* Criando variavel de conexão */
-$mysqli = new mysqli($host, $usuario, $senha, $bd);
+$conexao = new mysqli($host, $usuario, $senha, $bd);
 
 /* Verificação de erro na conexao */
 if($mysqli->connect_errno)
