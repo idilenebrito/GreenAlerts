@@ -14,55 +14,91 @@
 <body>
 
 <div class="corpo width100">
+
   <div class="cadEmpresa">
-    <header><h3>Cadastro de Empresa</h3></header>    
+
+    <header><h3>Cadastro de Empresa</h3></header>
+
   </div>
+
   <div class="informacoes flex-center-center">
-    <div class="informacoesesquerda">
-     <p><strong>CNPJ*</strong></p>
-     <input type="text" name="cnpj" size="45">
-     <p><strong>Nome da Empresa*</strong></p>
-     <input type="text" name="nomeEmp" size="45">
-     <p><strong>Endereço*</strong></p>
-     <input type="text" name="endereco" size="45">
-    <div class="tt">
-      <p><strong>Telefone*</strong>
-      <p><strong>Telefone Opcional</strong>
-   </div>
-   <div class="ttinput">
-     <input type="text" name="telefone" size="18">
-    <input type="text" name="telefoneop" size="18">
+
+    <form method="POST" action="./classes/classes-GA/cadastroEmp.php">
+
+      <div class="informacoesesquerda">
+
+        
+
+        
+
+        <p><strong>CNPJ*</strong></p>
+        <input type="text" name="cnpjIn" size="45" placehlder="" name="">
+        <p><strong>Nome da Empresa*</strong></p>
+        <input type="text" name="nomeEmpIn" size="45" placehlder="" name="">
+        <p><strong>Endereço*</strong></p>
+        <input type="text" name="enderecoIn" size="45" placehlder="" name="">
+
+        <div class="tt">
+
+          <p><strong>Telefone*</strong>
+          <p><strong>Telefone Opcional</strong>
+
+        </div>
+
+        <div class="ttinput">
+
+          <input type="text" name="telefoneIn" size="18" placehlder="">
+          <input type="text" name="telefoneOpIn" size="18" placehlder="">
+        </div>
+
+        <p><strong>Descrição principal da atividade</strong></p>
+        <input type="text" name="descricaoIn" size="45" placehlder="">
+
+        <p><strong>Email</strong></p>
+        <input type="text" name="emailIn" size="45" placehlder="">
+
       </div>
-     <p><strong>Descrição principal da atividade</strong></p>
-     <input type="text" name="descricao" size="45"> 
-     <p><strong>Email</strong></p>
-     <input type="text" name="email" size="45"> 
+
+      <div class="informacoesdireita">
+
+        <p><strong>Número Endereço*</strong></p>
+        <input type="text" name="nEndIn" size="62" placehlder="">
+
+        <p><strong>Nome Fantasia</strong></p>
+        <input type="text" name="nomeFanIn" size="62" placehlder="">
+
+          <div class="bccu">
+            <p><strong>Bairro*</strong>
+            <p><strong>Cidade*</strong>
+            <p><strong>CEP*</strong>
+            <p><strong>UF*</strong>
+          </div>
+
+          <div class="bccuinput">
+            <input type="text" name="bairroIn" size="10" placehlder="">
+            <input type="text" name="cidadeIn" size="10" placehlder="">
+            <input type="text" name="cepIn" size="10" placehlder="">
+            <input type="text" name="ufIn" size="10" placehlder="">
+          </div>
+
+          <p><strong>Responsável</strong></p>
+          <input type="text" name="responsavelIn" size="62" placehlder="">
+
+          <div class="buttons">
+
+            <button type="submit" class="btn btn-success">Adicionar</button>
+
+            <button type="button" class="btn btn-outline-danger">Cancelar</button>
+            
+
+          </div>
+        
       </div>
-    <div class="informacoesdireita">
-    <p><strong>Número de Inscrição*</strong></p>
-    <input type="text" name="nInsc" size="62">
-   <p><strong>Nome Fantasia</strong></p>
-  <input type="text" name="nomeFan" size="62"> 
-  <div class="bccu">
-    <p><strong>Bairro*</strong>
-    <p><strong>Cidade*</strong>
-    <p><strong>CEP*</strong>
-    <p><strong>UF*</strong>
-   </div>
-   <div class="bccuinput">
-    <input type="text" name="bairro" size="10">
-    <input type="text" name="cidade" size="10">
-         <input type="text" name="cep" size="10">
-         <input type="text" name="uf" size="10">
-      </div>
-   <p><strong>Responsável</strong></p>
-  <input type="text" name="nomeFan" size="62">
-      <div class="confemail">
-          <p><strong>Confirmar Email</strong></p>
-     <input type="text" name="confemail" size="62">
-      </div>
+
+    </form>
+
   </div>
- </div>
+
 </div> 
 
 

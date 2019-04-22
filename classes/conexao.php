@@ -20,14 +20,14 @@ try{
 $host = "localhost";
 $usuario = "root";
 $senha = "";
-$bd = "greenalert";
+$bd = "ambientecpfc";
 
 
 /* Criando variavel de conexão */
-$conexao = new mysqli($host, $usuario, $senha, $bd);
+$mysqli = new mysqli($host, $usuario, $senha, $bd);
 
 /* Verificação de erro na conexao */
-if($conexao->connect_errno)
+if($mysqli->connect_errno)
     echo "Falha na conexao: (".$mysqli->connect_errno.") ".$mysqli->connect_errno ;
 
 ?>

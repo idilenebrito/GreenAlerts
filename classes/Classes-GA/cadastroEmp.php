@@ -1,26 +1,34 @@
 <?php
-include ("conexao.php");
+include("./../conexao.php");
 
+
+/*Captura de campos*/ 
 $id;
-$cnpj = filter_input(INPUT_POST, 'cnpj', FILTER_SANITIZE_STRING);
-$nomeEmpresa = filter_input(INPUT_POST, 'nomeEmpresa', FILTER_SANITIZE_STRING);
-$nomeFantasia = filter_input(INPUT_POST, 'nomeFantasia', FILTER_SANITIZE_STRING);
-$endereco = filter_input(INPUT_POST, 'endereco', FILTER_SANITIZE_STRING);
-$bairro = filter_input(INPUT_POST, 'bairro', FILTER_SANITIZE_STRING);
-$cidade = filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_STRING);
-$cep = filter_input(INPUT_POST, 'cep', FILTER_SANITIZE_STRING);
-$uf = filter_input(INPUT_POST, 'uf', FILTER_SANITIZE_STRING);
-$telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING);
-$telefoneOpc = filter_input(INPUT_POST, 'telefoneOpc', FILTER_SANITIZE_STRING);
-$descAtv = filter_input(INPUT_POST, 'descAtv', FILTER_SANITIZE_STRING);
-$responsavel = filter_input(INPUT_POST, 'responsavel', FILTER_SANITIZE_STRING);
-$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
-$confSenha = filter_input(INPUT_POST, 'confSenha', FILTER_SANITIZE_STRING);
+$cnpj = filter_input(INPUT_POST, 'cnpjIn', FILTER_SANITIZE_STRING);
+$nomeEmp = filter_input(INPUT_POST, 'nomeEmpIn', FILTER_SANITIZE_STRING);
+$nomeFant = filter_input(INPUT_POST, 'nomeFanIn', FILTER_SANITIZE_STRING);
+$endereco = filter_input(INPUT_POST, 'enderecoIn', FILTER_SANITIZE_STRING);
+$bairro = filter_input(INPUT_POST, 'bairroIn', FILTER_SANITIZE_STRING);
+$cidade = filter_input(INPUT_POST, 'cidadeIn', FILTER_SANITIZE_STRING);
+$cep = filter_input(INPUT_POST, 'cepIn', FILTER_SANITIZE_STRING);
+$uf = filter_input(INPUT_POST, 'ufIn', FILTER_SANITIZE_STRING);
+$telefone = filter_input(INPUT_POST, 'telefoneIn', FILTER_SANITIZE_STRING);
+$telefoneOpc = filter_input(INPUT_POST, 'telefoneOpcIn', FILTER_SANITIZE_STRING);
+$descAtv = filter_input(INPUT_POST, 'descricaoIn', FILTER_SANITIZE_STRING);
+$responsavel = filter_input(INPUT_POST, 'responsavelIn', FILTER_SANITIZE_STRING);
+$email = filter_input(INPUT_POST, 'emailIn', FILTER_SANITIZE_EMAIL);
+$nEnd = filter_input(INPUT_POST, 'nEndIn', FILTER_SANITIZE_STRING);
 
-$Con_Emp = 'CALL Proc_in_CadEmp()';
 
-if (mysqli)
+/* Teste */
+/*echo "$cnpj, $nomeEmpresa, $nomeFantasia ,$endereco ,$bairro, $cidade ,$cep ,$uf ,$telefone";*/
+
+
+/* nesse trecho vou colocar a chamada da procedure 
+
+
+*/
+
 
 ?>
 

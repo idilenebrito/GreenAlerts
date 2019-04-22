@@ -59,3 +59,12 @@ body{margin: 0;}
 .width100 {
   width: 100%;
 }
+
+.buttons{
+display: flex;
+margin: 20px 0px 0px 0px;
+}
+
+.btn btn-sucess{
+  
+}
