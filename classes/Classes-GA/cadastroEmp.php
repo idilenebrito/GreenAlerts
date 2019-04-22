@@ -28,6 +28,41 @@ $nEnd = filter_input(INPUT_POST, 'nEndIn', FILTER_SANITIZE_STRING);
 
 
 */
+$result_empresa = "INSERT INTO clienteempresa
+(nomeEmpresa_empresa,
+nomeFantasia_empresa,
+descr_empresa,
+cnpj_empresa,
+ruaEndereço_empresa,
+numeroEndereço_empresa,
+bairroEndereço_empresa,
+cidadeEndereço_empresa,
+cepEndereco_empresa,
+ufEndereco_empresa,
+email_empresa,
+responsavel_empresa,
+telefone_empresa,
+telefoneOpc_emoresa
+)
+VALUES
+($nomeEmp,
+$nomeFant,
+$descAtv,
+$cnpj,
+$endereco,
+$nEnd,
+$bairro,
+$cidade,
+$cep,
+$uf,
+$email,
+$responsavel,
+$telefone,
+$telefoneOpc
+);";
+$resultado_empresa = mysqli_query($mysqli, $result_empresa);
+
+echo "funfou acho.";
 
 
 ?>
