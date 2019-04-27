@@ -1,0 +1,45 @@
+CREATE PROCEDURE `PROC_IN_EMPRESA` (IN razaoSocial_empresa varchar (100), IN nomeFantasia_empresa varchar (100), IN cnpj_empresa int(20),
+									IN numero_empresa int(12), IN email_empresa varchar (100), IN responsavel_empresa varchar (100), 
+                                    IN telefone_empresa int (15), IN telefoneOpc_empresa int (15), IN descricao_empresa varchar (100),
+                                    IN rua_endereco varchar (100), IN numero_endereco int (5), IN bairro_endereco varchar (100),
+                                    IN cidade_endereco varchar (100), IN cep_endereco int(12), IN uf_endereco varchar (2),
+                                    IN senha_empresa varchar(12), IN confSenha_empresa varchar (12) )
+BEGIN
+INSERT INTO `green_alert`.`cliente_empresa`
+(`razaoSocial_empresa`,
+`nomeFantasia_empresa`,
+`cnpj_empresa`,
+`numero_empresa`,
+`email_empresa`,
+`responsavel_empresa`,
+`telefone_empresa`,
+`telefoneOpc_empresa`,
+`descricao_empresa`,
+`rua_endereco`,
+`numero_endereco`,
+`bairro_endereco`,
+`cidade_endereco`,
+`cep_endereco`,
+`uf_endereco`,
+`senha_empresa`,
+`confSenha_empresa`)
+VALUES
+(
+'$nomeEmpresa',
+'$nomeFantasia',
+'$cnpj',
+'$numInscricao',
+'$email',
+'$responsavel',
+'$telefone',
+'$telefoneOpc',
+'$descAtv',
+'$endereco',
+'$numero',
+'$bairro',
+'$cidade',
+'$cep',
+'$uf',
+'$senha',
+'$confSenha');
+END

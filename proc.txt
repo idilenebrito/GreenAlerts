@@ -1,0 +1,1 @@
+$result_empresa = mysqli_query($conexao, "CALL PROC_IN_EMPRESA(@nomeEmpresa, @nomeFantasia, @cnpj, @numInscricao, @email,
