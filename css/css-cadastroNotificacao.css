@@ -5,7 +5,9 @@ body{margin: 0;}
 .corpo {
   min-height: 100vh;
   flex-direction: column;
-  border: solid black;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
 }
 
 .cadNotificacao {

@@ -15,7 +15,11 @@
 <div class="corpo width100">
   <div class="cadNotificacao">
     <header><h3>Cadastro de Notificações</h3>
-      <button class="button button1">Cadastrar empresa</button>
+    <div class="btn1">
+                <a href="cadastroEmpresa.php"> <!- Link para pagina "empresas.php" -!>
+                <button type="button" class="btn btn-light">Cadastrar Empresas</button>
+                </a>
+    </div>          
     </header>
   </div>
   <div class="informacoes flex-center-center">

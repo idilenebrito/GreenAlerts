@@ -6,81 +6,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Menu Inicial</title>
-
+  <title>Menu Inicial</title>  
 
   <!- Imports -!>
   <link rel="stylesheet" href="./css/css-index.css">   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-  
-  <div class="all">
-  
-    <div class="navegador">
+  <div class="container">
 
-      <div class="navegadorTxt">
-        <div>
-         Paineis
+      
+
+        <div class="logoTxt">
+          Green Alert
         </div>
-      </div>
 
-      
 
-      <div class="tracinho">
-       <hr/>
-      </div>
-      
-     <div class="btnTopo">
-
-     <div class="btn1">
-        <a href="empresas.php"> <!- Link para pagina "empresas.php" -!>
-        <button type="button" class="btn btn-light">Empresas</button>
-        </a>
-        
-      </div>
-
-      <div class="btn2">
-        <button type="button" class="btn btn-light">Notificações</button>
-      </div>
-     </div>
-
-    </div>
-
-    <div class="areaLogo">
-
-    <div class="topo">
-      
-      <div class="logo">
-
-      <div class="logoTxt">
-        Green Alert
-      </div>
-
-      <div class="logoImg">
-        <img src=".\Imagens\logo-menu.png" alt="imagemLogo" width=80px>
-      </div>
-
-      </div>
-
-    </div>
-
-    <div class="divisoria">
-      <hr>
-    </div> 
-
-    <div class="areaBranca"> 
-    
-      <div class="imgArea"> <!- Essa imagem tem que ser editada -!>
-        <!-- <img src="https://i.imgur.com/XGpUJgO.png" alt="imagemArea" width=500> -->
-        <img src=".\Imagens\logo-menu.png" alt="imagemHome" width=500>
-      </div> 
-
-    </div>
-
-    </div>
-
-  </div>
+          <div class="card card-container">
+          <div class="logoImg">
+            <img src=".\Imagens\logo-menu.png" alt="imagemLogo" width=80px>
+          </div>
+              <p id="profile-name" class="profile-name-card"></p>
+              <form class="form-signin">
+                  <span id="reauth-email" class="reauth-email"></span>
+                  <input type="text" id="nome" class="form-control" placeholder="Nome" required autofocus>
+                  <input type="password" id="senha" class="form-control" placeholder="Senha" required>
+                  <div id="remember" class="checkbox">
+                      <label>
+                          <input type="checkbox" value="remember-me"> Lembre-se de mim
+                      </label>
+                  </div>
+                  <div class="btnEntrar">
+                      <a href="empresas.php"> <!- Link para pagina "empresas.php" -!>
+                      <button type="button" class="btn btn-success">Entrar</button>
+                      </a>       
+                  </div>
+              </form> <!- /form ->
+              <a href="#" class="forgot-password">
+                  Esqueceu a senha?
+              </a>
+          </div> <!- /card-container ->
+      </div>  
+  
 
 </body>
 </html>
