@@ -1,13 +1,18 @@
-* { box-sizing: border-box; }
+* { box-sizing: border-box;}
 
-body{margin: 0;}
+body{margin: 0;
+   background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33)); 
+}
 
 .corpo {
-  min-height: 100vh;
   flex-direction: column;
   height: 100%;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+  min-height: 1h;
+  margin: 10vh 70px; 
+  width: 100%;
+  justify-items: center;
+  display: flex;
 }
 
 .cadNotificacao {
@@ -28,7 +33,7 @@ body{margin: 0;}
   text-decoration: none;
   display: inline-block;
   font-size: 15x;
-  margin: 4px 2;
+  margin: 4px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -49,15 +54,15 @@ body{margin: 0;}
 
 .informacoes {
   min-height: 100vh;
+ 
 }
 
 .bccu {
   display: flex;
+  
 }
 
-.ed {
-  display: flex;
-}
+
 
 .ed p {
   margin: 15px 80px 15px 0;
@@ -69,6 +74,10 @@ body{margin: 0;}
 
 .doinput input {
   margin: 0 4px 0 0; 
+}
+
+input{
+  border-radius: 5px;
 }
 
 .informacoesesquerda input {
@@ -90,6 +99,16 @@ body{margin: 0;}
   align-content: center;
 }
 
-.width100 {
-  width: 100%;
+
+
+.topo{
+  margin: 0vh 0 5vh 2vh;
+  display:flex;
+  min-height: 30px;
+  color: green;
+}
+
+
+.buttons{
+  margin: 50px 10px;
 }
