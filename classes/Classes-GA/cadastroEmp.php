@@ -44,7 +44,7 @@ $uf =  $_POST ['uf'];
 $senha =  $_POST ['senha'];
 $confSenha =  $_POST ['confSenha'];
 /* Teste */
-// "$cnpj, $nomeEmpresa, $nomeFantasia ,$endereco ,$bairro, $cidade ,$cep ,$uf ,$telefone";
+//echo "$cnpj, $nomeEmpresa, $nomeFantasia ,$endereco ,$bairro, $cidade ,$cep ,$uf ,$telefone";
 
 
 /* nesse trecho vou colocar a chamada da procedure 

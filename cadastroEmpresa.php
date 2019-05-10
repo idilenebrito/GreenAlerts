@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Green Alert - Sistema de alerta de data</title>
+  <title>Cadastro de empresa</title>
 
-  <!- Imports -!>
+  <!-- Imports -->
     <link rel="stylesheet" type="text/css" href="./css/css-cadastroEmpresa.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,51 +17,13 @@
 <body>
 
   
-<!-- Menu  navbar -->
+
 <div class="corpo bccu">
-  <!-- <header>  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Green Alert</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <nav class="navbar navbar-light bg-light">
-       <a class="navbar-brand" href="#">
-       <img src=".\Imagens\logo-menu.png" width="50" height="50" alt="">
-         </a>
-</nav>
-
-
-      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Ação</a>
-              <a class="dropdown-item" href="#">Outra ação</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Algo mais aqui</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Desativado</a>
-          </li>
-        </ul>
-      </div>  
-    </header> -->
+  
   
     <div class="topo">
       <div>
-        <h2><i class="material-icons">add_circle_outline</i> Cadastro de Empresa</h2>
+        <h2><i class="material-icons"></i> Cadastro de Empresa</h2>
       </div>
     </div>
 
@@ -196,7 +158,10 @@
 
           
           <div class="form-group buttons">
-            <input type="submit" value="Cancelar" class="btn btn-outline-danger buttons">
+            <input type="submit" value="Cancelar" class="btn btn-danger buttons">
+            <!-- <a href="empresas.php"> <!- Link para pagina "empresas.php" -!>
+                      <button type="button" class="btn btn-danger buttons">Cancelar</button>    - Botão diferente funcionando
+                      </a> !-->
             <input type="submit" value="Adicionar" class="btn btn-success buttons">           
           </div>
 

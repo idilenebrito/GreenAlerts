@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Menu Inicial</title>  
 
-  <!- Imports -!>
+  <!-- Imports !-->
   <link rel="stylesheet" href="./css/css-index.css">   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -37,7 +37,7 @@
                       </label>
                   </div>
                   <div class="btnEntrar">
-                      <a href="empresas.php"> <!- Link para pagina "empresas.php" -!>
+                      <a href="empresas.php"> <!-- Link para pagina "empresas.php" !-->
                       <button type="button" class="btn btn-success">Entrar</button>
                       </a>       
                   </div>
@@ -45,7 +45,7 @@
               <a href="#" class="forgot-password">
                   Esqueceu a senha?
               </a>
-          </div> <!- /card-container ->
+          </div> <!-- /card-container !-->
       </div>  
   
 
